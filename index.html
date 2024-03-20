@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quiz App</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to Quiz App!</h2>
+        <p>Choose an option:</p>
+        <a href="#" class="btn" id="createQuizBtn">Create Quiz</a>
+        <a href="attend.html" class="btn" id="attendQuizBtn">Attend Quiz</a>
+    </div>
+    <script rel="javascript" href="index.js"></script>
+
+    <!-- Modal for creating quiz -->
+    <div id="createQuizModal" class="modal">
+        <div class="modal-content">
